@@ -7,8 +7,8 @@ SpringCloud 全家桶
     
     RestTemplate
     /**
-      *resttemplate 模式访问
-      */
+     * resttemplate 模式访问
+     */
       
     Feign  
     /**
@@ -30,14 +30,14 @@ SpringCloud 全家桶
      *  可以通过hystrix-stream 节点获取监控的请求数据,提供了可视化的监控界面
      */
      
-     Ribbon
-     /**
-      * Spring Cloud Ribbon 是一个负载均衡解决方案,Ribbon 是netflix 发布的负载均衡器,
-      * Spring Cloud Ribbon 是基于Netflix Ribbon 实现,是一个用于对http请求进行控制的负载客户端
-      * 基本算法 轮询(默然算法) 随机 加权随机, 同时开发者可以自定义自己负载均衡算法
-      */
+    Ribbon
+    /**
+     * Spring Cloud Ribbon 是一个负载均衡解决方案,Ribbon 是netflix 发布的负载均衡器,
+     * Spring Cloud Ribbon 是基于Netflix Ribbon 实现,是一个用于对http请求进行控制的负载客户端
+     * 基本算法 轮询(默然算法) 随机 加权随机, 同时开发者可以自定义自己负载均衡算法
+     */
       
-      ConfigCenter 配置中心
-      /**
-        * 本地仓库配置中心和远程Git仓库配置中心
-        */
+    ConfigCenter 配置中心
+    /**
+     * 本地仓库配置中心和远程Git仓库配置中心
+     */
