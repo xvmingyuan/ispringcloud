@@ -7,3 +7,7 @@ eureka:
 spring:
   application:
     name: configclient
+userinfo:
+  password: 123456789
+  username: 123456789
+
