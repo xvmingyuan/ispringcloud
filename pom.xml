@@ -24,6 +24,8 @@
         <module>nativeconfigclient</module>
         <module>nativeconfigclient</module>
         <module>nativeconfigclients</module>
+        <module>configserver</module>
+        <module>configclient</module>
     </modules>
 
     <parent>

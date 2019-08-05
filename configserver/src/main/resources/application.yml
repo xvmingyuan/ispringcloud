@@ -1,0 +1,19 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xvmingyuan/ispringcloud.git
+          # 访问 uri 下 config 目录下 xxx.yml配置 访问地址:http://localhost/configclient-login.yml
+          search-paths: config
+          username: root
+          password: root
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
